@@ -1,0 +1,47 @@
+body {
+  background-image: url("../images/background.jpeg");
+  font-family: Avenir;
+  font-weight: bold;
+}
+button {
+  height: 25px;
+  width: 5%;
+  font-size: 14px;
+  border-radius: 2px;
+  font-family: Avenir;
+  margin: 25px 0px 0px 50px;
+}
+h1 {
+  float: right;
+  padding: 70px 200px 0px 0px;
+  font-size: 35px;
+  color: #4295f4;
+  font-style: italic;
+}
+h2 {
+  padding-left: 50px;
+  padding-top: 25px;
+  font-size: 20px;
+}
+p {
+  font-size: 15px;
+}
+.character-img {
+  height: 105px;
+  width: 70px;
+}
+.characters {
+  padding: 25px 0px 0px 50px;
+  clear: both;
+  display: inline-block;
+  text-align: center;
+}
+.stats {
+  font-size: 15px;
+  background-color: green;
+  color: white;
+  padding: 10px;
+}
+#restart {
+	display: none;
+}
