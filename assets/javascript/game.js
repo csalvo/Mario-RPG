@@ -119,7 +119,7 @@ function attack(char1, char2) {
         $("#directions").html("you attacked " + char2.id + " for " + newAttackPowerChar1 + " damage. <br>" + char2.id + " counter attacked for " + char2.counterAttackPower + " damage.");
         $("#" + char1.id + "-stats").text(newHealthPointsChar1);
         $("#" + char2.id + "-stats").text(newHealthPointsChar2);
-        console.log("poop");
+
 
     } else if (strike > 1 && round > 1) {
         newHealthPointsChar1 = newHealthPointsChar1 - char2.counterAttackPower;
